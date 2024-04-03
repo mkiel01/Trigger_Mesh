@@ -62,10 +62,10 @@ CloudEvents zawiera również protocol bindings, które regulują sposób, w jak
 ### Przykładowe komendy:
 
 -tmctl send-event <your_message>
-  <img src="https://github.com/Trigger_Mesh/img/send_event.img" alt="website"/>
+  <img src="https://github.com/mkiel01/Trigger_Mesh/blob/main/img/send_event.png" alt="website"/>
   
 -tmctl create transformation --source <your_source>
-  <img src="https://github.com/Trigger_Mesh/img/create_transformation.img" alt="website"/>
+  <img src="https://github.com/mkiel01/Trigger_Mesh/blob/main/img/create_transformation.png" alt="website"/>
 
 
 ## Stack technologiczny

@@ -3,8 +3,8 @@
 ## Strona tytułowa
 
 **Akronim:** TM  
-**Tytył:** Trigger Mesh  
-**Autorzy:** Krzysiek Miśkowicz, Michał Kiełkowski, Paweł Steczkiewicz, Sebastain Misztal  
+**Tytuł:** Trigger Mesh  
+**Autorzy:** Krzysiek Miśkowicz, Michał Kiełkowski, Paweł Steczkiewicz, Sebastian Misztal  
 **Rok, Grupa:** 2024 Grupa 6
 
 ## Wstęp

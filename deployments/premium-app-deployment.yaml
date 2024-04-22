@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: premium-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: premium-app
+  template:
+    metadata:
+      labels:
+        app: premium-app
+    spec:
+      containers:
+      - name: premium-app
+        image: ugodowy518wachta/trigger-mesh:premium-app
+        ports:
+        - containerPort: 5000

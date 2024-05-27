@@ -1,0 +1,6 @@
+.idea/*
+app/basic/__pycache__/*
+app/basic/venv/*
+app/legacy/__pycache__/*
+app/legacy/venv/*
+app/premium/venv/*

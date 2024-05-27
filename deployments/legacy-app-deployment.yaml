@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: legacy-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: legacy-app
+  template:
+    metadata:
+      labels:
+        app: legacy-app
+    spec:
+      containers:
+      - name: legacy-app
+        image: ugodowy518wachta/trigger-mesh:legacy-app
+        ports:
+        - containerPort: 5000

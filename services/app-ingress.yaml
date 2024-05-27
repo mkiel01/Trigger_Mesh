@@ -1,0 +1,33 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  name: app-ingress
+spec:
+  rules:
+    - host: app.com
+      http:
+        paths:
+          - path: /basic
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: basic-app-service
+                port:
+                  number: 80
+          - path: /premium
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: premium-app-service
+                port:
+                  number: 80
+          - path: /legacy/(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: legacy-app-service
+                port:
+                  number: 80
+

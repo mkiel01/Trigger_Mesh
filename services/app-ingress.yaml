@@ -23,7 +23,7 @@ spec:
                 name: premium-app-service
                 port:
                   number: 80
-          - path: /legacy/(.*)
+          - path: /legacy
             pathType: ImplementationSpecific
             backend:
               service:

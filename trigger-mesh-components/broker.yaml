@@ -1,0 +1,10 @@
+apiVersion: eventing.triggermesh.io/v1alpha1
+kind: MemoryBroker
+metadata:
+  name: app_broker
+  namespace: agones-system 
+spec:
+  memory:
+    bufferSize: 1000
+  broker:
+    port: 80

@@ -1,0 +1,13 @@
+apiVersion: sources.triggermesh.io/v1alpha1
+kind: HTTPSource
+metadata:
+  name: http-source
+  namespace: default
+spec:
+  sink:
+    ref:
+      apiVersion: flow.triggermesh.io/v1alpha1
+      kind: Bridge
+      name: message-bridge
+  port: 80
+
